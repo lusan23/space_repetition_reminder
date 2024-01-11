@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+
+header {
+    text-align: center;
+}
+
+#load-notes-button {
+    text-align: center;
+    padding: 10px;
+}
+
+td {
+    border: 1px solid black;
+    padding: 0px 100px;
+}
