@@ -15,3 +15,14 @@ export function buildTable(containerId) {
     
     container.appendChild(tb);
 }
+
+export function updatePrevContent(elementId, newContent) {
+
+    const button = document.getElementById(elementId);
+    if (button) {
+        button.textContent = newContent;
+    } else {
+        console.error("Element not found!!")
+    }
+    
+}
